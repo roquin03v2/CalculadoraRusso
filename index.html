@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculadora de Pago de Reparto</title>
+    <link rel="stylesheet" href="style.css"> 
+  </head>
+  <body>
+    <div class="container">
+      <h1>Calculadora de Pago de Reparto</h1>
+
+      <div>
+        <label for="driver-cost">Costo por Conductor:</label>
+        <input type="number" id="driver-cost" value="5000" required>
+
+        <label for="profit">Beneficio por Reparto:</label>
+        <input type="number" id="profit" value="2700" required>
+      </div>
+
+      <div>
+        <h2>Calcular Pago</h2>
+        <label for="num-deliveries">Número de Entregas:</label>
+        <input type="number" id="num-deliveries" name="num-deliveries" required>
+        <button id="calculate-button">Calcular</button>
+        <p id="payment-result"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script> </body>
+</html>
