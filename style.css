@@ -1,22 +1,24 @@
 body {
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif; /* Roboto es una fuente moderna */
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #f4f4f4;
+  background-color: white; /* Gris oscuro */
+  color: #ddd; /* Gris claro para el texto */
 }
 
 .container {
-  background-color: #fff;
+  background-color: #333; /* Gris más claro */
   padding: 30px;
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Sombra más intensa */
   text-align: center;
 }
 
 h1 {
-  color: #333;
+  font-family: 'Roboto', sans-serif;
+  color: #ff4d4d; /* Rojo intenso */
   margin-bottom: 20px;
 }
 
@@ -29,18 +31,25 @@ input[type="number"] {
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #666; /* Gris intermedio */
   border-radius: 4px;
   box-sizing: border-box;
+  background-color: white; /* Gris oscuro para el fondo del input */
+  color: #ddd; /* Gris claro para el texto del input */
 }
 
 button {
-  background-color: #4CAF50;
+  background-color: #ff4d4d; /* Rojo */
   color: white;
   padding: 10px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  transition: background-color 0.3s ease; /* Transición suave para el botón */
+}
+
+button:hover {
+  background-color: #c82323; /* Rojo más oscuro al pasar el ratón */
 }
 
 #payment-result {
