@@ -35,7 +35,7 @@ input[type="number"] {
   border-radius: 4px;
   box-sizing: border-box;
   background-color: white; /* Gris oscuro para el fondo del input */
-  color: #ddd; /* Gris claro para el texto del input */
+  color: #666; /* Gris claro para el texto del input */
 }
 
 button {
